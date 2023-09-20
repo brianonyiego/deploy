@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Number Statistics Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Number Statistics Calculator</h1>
+    <input type="text" id="main-input" placeholder="Enter numbers (comma-separated)">
+    <select id="operator">
+      <option value="none">Select an operation</option>
+      <option value="sum">Sum</option>
+      <option value="average">Average</option>
+      <option value="min">Minimum</option>
+      <option value="max">Maximum</option>
+      <option value="median">Median</option>
+      <option value="mode">Mode</option>
+      <option value="range">Range</option>
+    </select>
+    <button id="calculate">Calculate</button>
+    <p id="output"></p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
